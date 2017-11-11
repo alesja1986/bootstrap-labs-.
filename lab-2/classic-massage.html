@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css.bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Lab - 2</title>
+</head>
+
+
+
+<!--Navigation-->
+<nav class="navbar navbar-fixed-top">
+    <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button> 
+       <div class="navbar-brand"><i class="fa fa-diamond"> Diamant Beauty</i></div> 
+   </div> <!--Navbar header delen stängs-->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+              <li class="dropdown active">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      Treatments<span class="caret"></span>
+                    <ul class="dropdown-menu">
+                         <li><a href="treatments.html">All treatments</a></li>
+                         <li><a href="taktil-massage.html">Taktil massage</a></li>
+                         <li><a href="classic-massage.html">Classic massage</a></li>
+                   </ul>
+              </li>
+          <li><a href="about.html">About</a></li>
+       </ul>
+      </div><!--collapse div stängs-->
+</nav>    
+
+<body>  
+      <!--Breadscrumbs-->
+      <ol class="breadcrumb">
+            <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+            <li><a href="treatments.html">Treatments </a></li>
+            <li><a href="taktil-massage.html">Taktil-massage </a></li>
+            <li class="active"><a href="classic-massage.html">Classic-massage </a></li>
+        </ol>   
+
+    
+        <h1 class="text-center">CLASSIC MASSAGE</h1>
+
+
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+           <img src="pics/1.jpg" class="img-responsive" alt="spa" >
+</div>
+<div class="col-sm-6">
+             <p>   Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har 
+                varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver
+                och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara 
+                överlevt fem århundraden, utan även övergången till elektronisk typografi utan större
+                förändringar. Det blev allmänt känt på 1960-talet i samband med larit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver
+                och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara 
+                överlevt fem århundraden, utan även övergången till elektronisk typografi. </p>
+        </div>
+</div>
+    </div><!--Container  stängs-->
+
+    <div class="container ">
+            <h2>Booka din tid här : </h2>
+           
+            <div class="form-group col-sm-8 ">
+                <label class="control-label" for="pwd">Your name:</label> 
+                  <input type="name" class="form-control" id="pwd" placeholder="Enter name" name="pwd">
+                 </div>
+    
+              <div class="form-group col-sm-8">
+                    <label class="control-label" for="pwd">Email:</label> 
+                      <input type="mail" class="form-control" id="pwd" placeholder="Enter email" name="pwd">
+                     </div>
+                 
+                  <div class="form-group col-sm-8">
+                        <label class="control-label" for="pwd">Enter date:</label> 
+                          <input type="date" class="form-control" id="pwd" placeholder="Enter date" name="pwd">
+                         </div>
+                    
+                      <div class="form-group col-sm-8">
+                            <label for="comment">Message:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                          </div>
+                          
+
+        
+              <div class="form-group col-sm-8">        
+                  <button type="submit" class="btn btn-default center-block">Submit</button>
+              </div>
+            </form>
+        </div>    
+</body>
+</html>

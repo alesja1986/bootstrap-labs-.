@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css.bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Lab - 2</title>
+</head>
+
+
+
+<!--Navigation-->
+<nav class="navbar navbar-fixed-top">
+    <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button> 
+       <div class="navbar-brand"><i class="fa fa-diamond"> Diamant Beauty</i></div> 
+   </div> <!--Navbar header delen stängs-->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                  <a class="dropdown-toggle active" data-toggle="dropdown" href="#">
+                      Treatments<span class="caret"></span>
+                    <ul class="dropdown-menu">
+                         <li><a href="treatments.html">All treatments</a></li>
+                         <li><a href="taktil-massage.html">Taktil massage</a></li>
+                         <li><a href="classic-massage.html">Classic massage</a></li>
+                   </ul>
+              </li>
+          <li><a href="about.html">About</a></li>
+       </ul>
+      </div><!--collapse div stängs-->
+</nav>    
+
+
+<body>  
+       <!--Breadscrumbs-->
+         <ol class="breadcrumb">
+                <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                <li class="active"><a href="treatments.html">Treatments </a></li>
+            </ol>
+
+
+
+        <div class="container">  
+                  <!--Första panelen-->  
+                   <div class="col-sm-6">
+                        <div class="panel panel-info ">
+                           <div class="panel-heading ">
+                              <h3 class="panel-title">Taktil-massage</h3>
+                           </div>
+                        <div class="panel-body text-center">
+                           <img src="pics/2.jpg" class="img-responsive" alt="spa" >
+                                Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har 
+                                varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver
+                                och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara 
+                                överlevt fem århundraden, utan även övergången till elektronisk typografi utan större
+                                förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av 
+                                Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker. 
+                        </div>
+                                <form method="get" action="taktil-massage.html" class="panel-footer">
+                                <button type="button " class="btn bg-info center-block">Read more</button>
+                                </form>
+                       </div><!--Info panel div stängs-->
+                    </div>
+                 
+                         <!--Andra panelen-->  
+                         <div class="col-sm-6">
+                                <div class="panel panel-info ">
+                                   <div class="panel-heading ">
+                                      <h3 class="panel-title">Classic-massage</h3>
+                                   </div>
+                                <div class="panel-body text-center">
+                                   <img src="pics/1.jpg" class="img-responsive" alt="spa" >
+                                        Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har 
+                                        varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver
+                                        och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara 
+                                        överlevt fem århundraden, utan även övergången till elektronisk typografi utan större
+                                        förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av 
+                                        Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker. 
+                                </div>
+                                        <form method="get" action="classic-massage.html" class="panel-footer">
+                                        <button type="button " class="btn bg-info center-block">Read more</button>
+                                        </form>
+                               </div><!--Info panel div stängs-->
+                            </div>
+
+
+
+
+</body>
+</html>
